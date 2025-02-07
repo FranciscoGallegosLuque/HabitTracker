@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A16E1BB12D561A7E00596F49 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E1BB02D561A7E00596F49 /* ActivityView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A16E1B7F2D525AEE00596F49 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		A16E1B6E2D525AEC00596F49 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16E1B7E2D525AEE00596F49 /* HabitTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16E1B882D525AEE00596F49 /* HabitTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16E1BB02D561A7E00596F49 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		A16E1B652D525AEC00596F49 = {
 			isa = PBXGroup;
 			children = (
+				A16E1BB02D561A7E00596F49 /* ActivityView.swift */,
 				A16E1B702D525AEC00596F49 /* HabitTracker */,
 				A16E1B812D525AEE00596F49 /* HabitTrackerTests */,
 				A16E1B8B2D525AEE00596F49 /* HabitTrackerUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16E1BB12D561A7E00596F49 /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
